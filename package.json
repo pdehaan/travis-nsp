@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "test": "npm run outdated && npm run audit",
+    "test": "npm run travis",
     "shrinkwrap": "npm shrinkwrap --dev",
     "audit": "nsp audit-shrinkwrap || true",
-    "outdated": "npm outdated --depth 0"
+    "outdated": "npm outdated --depth 0",
+    "travis": "npm run outdated && npm run audit"
   },
   "repository": {
     "type": "git",
