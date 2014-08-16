@@ -22,8 +22,13 @@
   },
   "homepage": "https://github.com/pdehaan/travis-nsp",
   "dependencies": {
+    "crumb": "2.2.0",
+    "hapi": "6.5.1",
+    "libyaml": "0.2.2",
+    "marked": "0.3.0",
     "nsp": "0.2.1",
     "qs": "0.6.6",
-    "request": "2.39.0"
+    "request": "2.39.0",
+    "syntax-error": "1.0.0"
   }
 }
